@@ -32,21 +32,27 @@ Class 0 are non-fradulent transactions and Class 1 are fradulent
 ## Aims and Objective -
 To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (value=0) in the age group of 5-9 years old.
 
-## ML Steps to be executed -
+## ML Steps executed -
 
 (1) Data Preparation and Scaling -
 
 (2) Building ML models (in original dataset)
 
-(A) Supervised ML Models -
+            (A) Supervised ML Models -
+            (B) Unsupervised ML Models -
+                (1) Dimensionality Reduction using PCA and t-SNE,
+                (2) Cluster Analysis using KMeans Clustering,
+            (C) Artificial Neural Network -
+                
+(3) Balancing the dataset 
+            (A) random over-sampling (RandomUnderSampler), 
+            (B) random under-sampling (RandomUnderSampler) &
+            (C) random over & under-sampling (SMOTETomek)
 
-(B) Unsupervised ML Models -
- (2) Dimensionality Reduction using PCA and t-SNE,
- (3) Cluster Analysis using KMeans Clustering,
+(4) Building ML models (in balanced dataset) 
 
-(C) Artificial Neural Network -
-
-(D) 
+(5) Making recommendations to end-users (credit card companies) for deployement 
+             
 
       
 ## Specific Libraries and modules employed -
@@ -59,7 +65,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
   
             (c) Manifold - TSNE
   
-            (d) Cluster - KMeans, AgglomerativeClustering
+            (d) Cluster - KMeans
   
       Scipy.cluster.hierarchy-
       
