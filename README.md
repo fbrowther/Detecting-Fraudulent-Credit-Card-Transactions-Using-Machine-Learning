@@ -1,5 +1,9 @@
-# Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions
-Anomaly Detection to identify Fraudulent Credit Card Transactions
+# Detecting Fraudulent Credit-Card Transactions
 
+![LR]()
+## Brief Introduction -
+Credit card fraud is a fraud committed using a credit card to obtain goods or services or to make payment to another account, which is controlled by a criminal. Detecting these types of fraud is a challenging task as it requires detecting fraudulent transactions out of millions of daily transactions. Due to the enormous amount of data, it is now nearly impossible for human specialists to identify meaningful patterns from transaction data. 
 
-link for powerpoint https://docs.google.com/presentation/d/1P9iKBUEiM5MuJPwqQs21g6EBqDMel8SN/edit?usp=sharing&ouid=100864522949713958457&rtpof=true&sd=true
+As a part of this project, machine learning alogorithms will be employed to detect the fraudulent transactions in the real-world dataset obtained containing data from european credit card users. 
+
+## Dataset - 
