@@ -68,9 +68,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
   
             (d) Cluster - KMeans
   
-      Scipy.cluster.hierarchy-
       
-            (a) Dendrogram, Linkage
       
     
 
