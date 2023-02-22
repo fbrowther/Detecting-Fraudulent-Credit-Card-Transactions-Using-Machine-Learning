@@ -35,7 +35,7 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
 
 ## ML Steps executed -
 
-(1) Data Preparation and Scaling -
+(1) Data Preparation, Cleaning and Scaling -
 
 (2) Building ML models (in original dataset)
 
