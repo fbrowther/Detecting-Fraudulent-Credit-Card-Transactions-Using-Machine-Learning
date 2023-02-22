@@ -6,7 +6,8 @@ Credit card fraud is becoming very common nowadays. It is a fraud committed usin
 
 Detecting these types of fraud is a challenging task as it requires detecting fraudulent transactions out of millions of daily transactions. Due to the enormous amount of data, it is now nearly impossible for human specialists to identify meaningful patterns from transaction data. However, employing machine learning models these types of fraudulent transactions can be detected with some success. 
 
-As a part of this project, machine learning alogorithms will be employed to detect the fraudulent transactions in the real-world (anonymized) dataset obtained from european credit card users.
+## Aims and Objective -
+To build  Machine Learning models that can to detect the fraudulent transactions in the (anonymized) real-world dataset obtained from european credit card users.
 
 ## Dataset - 
     (1) The dataset contains transactions made by credit cards in September 2013 by European cardholders. 
@@ -28,4 +29,41 @@ As a part of this project, machine learning alogorithms will be employed to dete
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Class%20Distribution%20in%20original%20Dataset.png)
 Class 0 are non-fradulent transactions and Class 1 are fradulent
 
+## Aims and Objective -
+To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (value=0) in the age group of 5-9 years old.
+
+## ML Steps to be executed -
+
+(1) Data Preparation and Scaling -
+
+(2) Building ML models (in original dataset)
+
+(A) Supervised ML Models -
+
+(B) Unsupervised ML Models -
+ (2) Dimensionality Reduction using PCA and t-SNE,
+ (3) Cluster Analysis using KMeans Clustering,
+
+(C) Artificial Neural Network -
+
+(D) 
+
+      
+## Specific Libraries and modules employed -
+      
+      Scikit-Learn ML and Library-
+      
+            (a) Preprocessing - StandardScaler, normalize
+  
+            (b) Decomposition - PCA, 
+  
+            (c) Manifold - TSNE
+  
+            (d) Cluster - KMeans, AgglomerativeClustering
+  
+      Scipy.cluster.hierarchy-
+      
+            (a) Dendrogram, Linkage
+      
+    
 
