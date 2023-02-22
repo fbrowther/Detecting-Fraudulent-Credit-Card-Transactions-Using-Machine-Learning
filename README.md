@@ -14,7 +14,16 @@ As a part of this project, machine learning alogorithms will be employed to dete
     (3) Data contained 492 fraudulent transactions out of 284,807. 
     (4) The dataset is severly imbalanced posing additional challenges for the ML models. 
     (5) Necessary ML steps will be taken to improve the model performance in such an imbalanced dataset. 
-    (6) Imbalanced dataset in real life scenarios where the anomaly needs to be detected are very common. 
+    (6) Imbalanced dataset in real life scenarios where the anomaly needs to be detected are very common.
+    (7) These senarios include (but not limited to)
+            •	Claim Prediction
+            •	Default Prediction.
+            •	Churn Prediction.
+            •	Spam Detection.
+            •	Anomaly Detection.
+            •	Outlier Detection.
+            •	Intrusion Detection
+            •	Conversion Prediction.
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Class%20Distribution%20in%20original%20Dataset.png)
 
