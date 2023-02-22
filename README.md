@@ -27,6 +27,6 @@ As a part of this project, machine learning alogorithms will be employed to dete
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Class%20Distribution%20in%20original%20Dataset.png)
 
-
+Class 0 are non-fradulent transactions and Class 1 are fradulent
 
 
