@@ -1,4 +1,4 @@
-# Detecting Fraudulent Credit-Card Transactions
+# Detecting Fraudulent Credit Card Transactions
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Credit-Card-Fraud-Detection.jpg)
 ## Brief Introduction -
