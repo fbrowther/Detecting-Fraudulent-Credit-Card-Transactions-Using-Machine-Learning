@@ -45,7 +45,8 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
                 (2) Cluster Analysis using KMeans Clustering,
             (C) Artificial Neural Network -
                 
-(3) Balancing the dataset 
+(3) Balancing the dataset -
+
             (A) random over-sampling (RandomUnderSampler), 
             (B) random under-sampling (RandomUnderSampler) &
             (C) random over & under-sampling (SMOTETomek)
