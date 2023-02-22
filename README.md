@@ -30,9 +30,6 @@ To build  Machine Learning models that can to detect the fraudulent transactions
 
 Class 0 are non-fradulent transactions and Class 1 are fradulent
 
-## Aims and Objective -
-To build Unsupervised Machine Learning that can categorize Myopic children (value =1) from those who do not have Myopia (value=0) in the age group of 5-9 years old.
-
 ## ML Steps executed -
 
 (1) Data Preparation, Cleaning and Scaling -
