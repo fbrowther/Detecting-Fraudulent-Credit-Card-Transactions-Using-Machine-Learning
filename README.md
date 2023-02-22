@@ -59,16 +59,20 @@ To build Unsupervised Machine Learning that can categorize Myopic children (valu
       
 ## Specific Libraries and modules employed -
       
-      Scikit-Learn ML and Library-
+      (1) Scikit-Learn ML and Library-
       
-            (a) Preprocessing - StandardScaler, normalize
+            (a) Preprocessing - StandardScaler, Normalize, OneHotEncoder
+            (b) model_selection - train_test_split
+            (c) Decomposition - PCA  
+            (d) Manifold - TSNE
+            (e) Cluster - KMean
   
-            (b) Decomposition - PCA, 
-  
-            (c) Manifold - TSNE
-  
-            (d) Cluster - KMeans
-  
+      (2) TensorFlow - Neural Network
+      
+      (3) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
+      
+      (4)        
+      
       
       
     
