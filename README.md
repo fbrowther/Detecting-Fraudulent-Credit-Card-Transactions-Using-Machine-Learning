@@ -126,7 +126,6 @@ An AdaBoost classifier is an estimator algorithm that begins by fitting a classi
 
 For this dataset, we got precision and recall values of 0.78 and 0.70 for fraudulent transactions using this model.
 
-
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Adaboost%20Classifier.png" width="350" height="150">
 
 ### (7) SelectFromModel and Feature_Importance
@@ -140,8 +139,8 @@ This gave us precision and recall values 0.90 and 0.74 for fraudulent transactio
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png" width="350" height="150">
 
-### Summary
-Out of all the supervised machine learning algorithms we employed, Random Forest Classifier was the best model so far to compare to.
+### Summary of Supervised ML models
+Out of all the supervised ML algorithms we employed, Random Forest Classifier was the best model so far.
 
 
 # Unsupervised ML Models
