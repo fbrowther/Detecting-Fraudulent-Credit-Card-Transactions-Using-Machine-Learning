@@ -94,12 +94,12 @@ Supervised ML Models rely on the data labels to train algorithms that will then 
 ### (1) Logistic Regression
 This model is (usually) employed in making categorical predictions, like yes/no, true/false or class-0/class-1. In this current project, this algorithm was used to predict whether the transaction was fradulent or not. This model gave a precision of 82% and a recall score of 52%. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Log1.png" width="1000" height="350">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Log1.png" width="750" height="250">
 
 ### (2) K Nearest Neighbors (KNN)
 KNN uses proximity to make classifications or predictions about a group of data points. We observed a slight improvement in precision (88%) and recall scores (74%) compared to the logistic regression. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/KNN.png" width="1000" height="350">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/KNN.png" width="1750" height="250">
 
 ### (3) SVM (with and without class weight assignment)
 Support Vector Machine (SVM) is a prediction classifier that is commonly used in imbalanced datasets. We assigned either an equal or double the weight to class 1 (compared to class 0) before training the models. This model showed more balanced score for both precision and recall.
