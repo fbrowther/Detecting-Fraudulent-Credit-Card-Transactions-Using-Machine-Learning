@@ -138,11 +138,47 @@ This gave us precision and recall values 0.90 and 0.74 for fraudulent transactio
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png)
 
-### Summary -
+### Summary
 Out of all the supervised machine learning algorithms we employed, Random Forest Classifier was the best model with so far.
 
 
 ## Unsupervised ML Models
+Unsupervised learning method allows us to cluster data in order to find hidden or unknown patterns. 
+
+Since the incoming new transaction data represents data with no prior label, we wanted to employ these models to find clusters based on their similarity and differences to identify whether they were either fradulant or non-fraudulent.
+
+### (1) PCA
+PCA is a statistical technique used to speed up machine learning algorithms and works by reducing the number of input features or dimensions. As you can see from the diagram the PCA reduced the number of features from 29 to 13. 
+
+### (2) TSNE
+The TSNE algorithm also known as Stochastic Neighbourhood Embedding is a clustering and visualization method and is different from PCA as it is able to account for non-linear relationships. This algorithm models the probability distribution of neighbours around each point. 
+
+In the transaction dataset, TSNE algorithm was unable to distinguish the classes.
+
+
+### (3) K-means Clustering (in conjunction with Elbow Curve)
+K represents the number of clusters. The K-means algorithm groups the data into clusters where each piece of data is assigned to a cluster based on similiarity or the distance measured to a centroid. A centroid represents a data point that is the arithmetic mean position of all the points in a cluster. This process is repeated until the data is separated into distinct groups.
+
+The elbow curve represents the number for k and the number of clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
+
+Employing elbow curve we determined the number of cluster that is recognizable in this dataset to be 4. However, on retraining the dataset for Kmeans clustering using K=4, we obtained the inertia value of 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis as expected.
+
+![LR]()
+
+![LR]()
+
+
+
+The elbow curve represents the number for k and the number of clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
+
+As we can see in the graph, the elbow curve has 2 bends and is therefore said to have 2 clusters. The inertia value is 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis.
+### 
+
+The elbow curve represents the number for k and the number of clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
+
+As we can see in the graph, the elbow curve has 2 bends and is therefore said to have 2 clusters. The inertia value is 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis.
+
+We also tried to carry out hierarchy clustering and tried running the cluster, however due to the size of the data and the RAM available, we had difficulty obtaining results.
 
 
 
