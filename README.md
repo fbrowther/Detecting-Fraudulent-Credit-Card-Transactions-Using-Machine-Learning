@@ -111,7 +111,7 @@ A random forest classifier is an estimator algorithm that fits a number of decis
 
 So far, this was the best performing algorithm that gave us the precision and recall scores of 0.93 and 0.80 for fraudulent transactions. So, we used this as a baseline for the subsequent models.
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/RFC.png" width="650" height="250">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/RFC.png" width="700" height="250">
 
 ### (5) Extra Tree Classifier
 ExtraTreesClassifier implements an estimator algorithm, that fits a number of randomized decision trees (extra-trees) on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and controls the over-fitting. This is similar to Random Forest classifier. 
