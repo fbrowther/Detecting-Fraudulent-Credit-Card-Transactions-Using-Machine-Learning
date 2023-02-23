@@ -180,11 +180,13 @@ Neural networks are a subset of machine learning algorithms which mimic the wo
 ![LR]()
 
 Neural networks rely on training data to learn and improve their accuracy. However, once these learning algorithms are fine-tuned for accuracy, 
-they are powerful tools in machine learning to classify and cluster data at a very high velocity. In this case to determine whether a transaction was fraudulent or not.
+they are powerful tools in machine learning to classify and cluster data at a very high velocity. 
+
+In this use case, to determine whether a transaction was fraudulent or not.
 
 Since the dataset we are dealing with is severely imbalanced, it is very important to note that determining loss or accuracy alone will not give an indication of how well the neural networks are working in predicting the minority class.
 
-These metrics were fed into the network to be computed during the training process.
+Therefore, these metrics were fed into the network for computing at every epoch during the training process. The testing scores for these metrics are presented as follows-
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="600" height="300">
 
@@ -195,10 +197,10 @@ These metrics were fed into the network to be computed during the training proce
 
 The four possible outcomes of the Neural Network models are -
 
-        TP: True positives. These are the instances of class 1 (fraudulent transactions), that the ANN correctly predicts as fraudulent.
-        TN: True negatives. These are the instances of class 0 (genuine transactions), that the ANN correctly predicts as genuine.
-        FP: False positives. These are the instances of class 0 (genuine transactions), that the ANN incorrectly predicts as fraudulent.
-        FN: False negatives. These are the instances of class 1 (fraudulent transactions), that the ANN incorrectly predicts as genuine.
+       TP: True positives. These are the instances of class 1 (fraudulent transactions), that the ANN correctly predicts as fraudulent.
+       TN: True negatives. These are the instances of class 0 (genuine transactions), that the ANN correctly predicts as genuine.
+       FP: False positives. These are the instances of class 0 (genuine transactions), that the ANN incorrectly predicts as fraudulent.
+       FN: False negatives. These are the instances of class 1 (fraudulent transactions), that the ANN incorrectly predicts as genuine.
       
 Based on the best scores for FN and FP the highlighted models with binary accuracy of 0.6 was chosen as the best model for deployment. 
 In the current use case of detecting fradulent transactions, FN values plays a crucial role.
@@ -223,15 +225,3 @@ In the current use case of detecting fradulent transactions, FN values plays a c
       
       
       
-      
-      
-      
-The four possible outcomes are
-
-TP: True positives. These are the instances of class 1 (fraudulent transactions), that the classifier correctly predicts as fraudulent.
-TN: True negatives. These are the instances of class 0 (genuine transactions), that the classifier correctly predicts as genuine.
-FP: False positives. These are the instances of class 0 (genuine transactions), that the classifier incorrectly predicts as fraudulent.
-FN: False negatives. These are the instances of class 1 (fraudulent transactions), that the classifier incorrectly predicts as genuine.
-      
-    
-
