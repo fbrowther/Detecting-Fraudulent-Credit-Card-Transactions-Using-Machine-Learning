@@ -97,6 +97,12 @@ This model usually employed in making categorical predictions, like yes/no, true
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/LogisticRegression.png)
 
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/KNN.png)
+
+![LR]()
+
+![LR]()
+
 
 
 
