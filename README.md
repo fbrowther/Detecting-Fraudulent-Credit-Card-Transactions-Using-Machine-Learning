@@ -190,7 +190,7 @@ These metrics were fed into the network to be computed during the training proce
 
 ## Artificial neural networks (ANN) performance
 
-![LR]()
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/ANN%20comparison.png)
 
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Final%20Table.png)
