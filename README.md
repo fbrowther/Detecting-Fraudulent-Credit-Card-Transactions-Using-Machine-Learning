@@ -139,7 +139,7 @@ This gave us precision and recall values 0.90 and 0.74 for fraudulent transactio
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png)
 
 ### Summary
-Out of all the supervised machine learning algorithms we employed, Random Forest Classifier was the best model with so far.
+Out of all the supervised machine learning algorithms we employed, Random Forest Classifier was the best model so far.
 
 
 ## Unsupervised ML Models
@@ -150,22 +150,27 @@ Since the incoming new transaction data represents data with no prior label, we 
 ### (1) PCA
 PCA is a statistical technique used to speed up machine learning algorithms and works by reducing the number of input features or dimensions. As you can see from the diagram the PCA reduced the number of features from 29 to 13. 
 
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/PCA.png)
+
 ### (2) TSNE
-The TSNE algorithm also known as Stochastic Neighbourhood Embedding is a clustering and visualization method and is different from PCA as it is able to account for non-linear relationships. This algorithm models the probability distribution of neighbours around each point. 
+The TSNE algorithm also known as Stochastic Neighbourhood Embedding is a clustering and visualization method is different from PCA and is able to account for non-linear relationships. This algorithm models the probability distribution of neighbours around each point. 
 
 In the transaction dataset, TSNE algorithm was unable to distinguish the classes.
 
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/TSNE.png)
 
 ### (3) K-means Clustering (in conjunction with Elbow Curve)
 K represents the number of clusters. The K-means algorithm groups the data into clusters where each piece of data is assigned to a cluster based on similiarity or the distance measured to a centroid. A centroid represents a data point that is the arithmetic mean position of all the points in a cluster. This process is repeated until the data is separated into distinct groups.
 
 The elbow curve represents the number for k and the number of clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
 
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Elbow%20Curve.png)
+
 Employing elbow curve we determined the number of cluster that is recognizable in this dataset to be 4. However, on retraining the dataset for Kmeans clustering using K=4, we obtained the inertia value of 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis as expected.
 
 ![LR]()
 
-![LR]()
+
 
 
 
