@@ -186,7 +186,8 @@ Since the dataset we are dealing with is severely imbalanced, it is very importa
 
 These metrics were fed into the network to be computed during the training process.
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="1000" height="350">
+
 
 ## Artificial neural networks (ANN) performance
 
