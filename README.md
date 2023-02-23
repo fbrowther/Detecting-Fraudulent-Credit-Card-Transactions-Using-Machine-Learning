@@ -59,10 +59,16 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
       (1) Scikit-Learn ML and Library-
       
             (a) Preprocessing - StandardScaler, Normalize, OneHotEncoder
-            (b) model_selection - train_test_split
+            (b) model_selection - train_test_split, SelectFromModel
             (c) Decomposition - PCA  
             (d) Manifold - TSNE
             (e) Cluster - KMean
+            (f) Linear_model - LogisticRegression
+            (g) Neighbors - KNeighborsClassifier
+            (h) SVM - SVC
+            (i) Metrics - Classification_report, roc_curve, auc
+            (j) Ensemble - RandomForestClassifier
+            (k) 
   
       (2) TensorFlow - Neural Network
       
@@ -70,7 +76,15 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
       
       (4)        
       
+
+
       
+The four possible outcomes are
+
+TP: True positives. These are the instances of class 1 (fraudulent transactions), that the classifier correctly predicts as fraudulent.
+TN: True negatives. These are the instances of class 0 (genuine transactions), that the classifier correctly predicts as genuine.
+FP: False positives. These are the instances of class 0 (genuine transactions), that the classifier incorrectly predicts as fraudulent.
+FN: False negatives. These are the instances of class 1 (fraudulent transactions), that the classifier incorrectly predicts as genuine.
       
     
 
