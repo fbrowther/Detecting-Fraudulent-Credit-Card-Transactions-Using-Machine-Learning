@@ -107,7 +107,7 @@ Support Vector Machine (SVM) is a prediction classifier that is commonly used in
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="450" height="500">
 
 ### (4) Random Forest Classifier
-A random forest is an estimator algorithm that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting and then outputs the most optimal result. 
+A random forest classifier is an estimator algorithm that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting and then outputs the most optimal result. 
 
 This was the best performing algorithm which gave us the best precision and recall values of 0.93 and 0.80 for fraudulent transactions. So, we used this as a baseline for all the other subsequential models.
 
