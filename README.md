@@ -209,7 +209,7 @@ Based on the best scores for FN and FP, the highlighted models with binary accur
 
 Balancing of the current dataset was attempted employing RandomOverSampler, RandomUnderSampler, and SMOTETomek approaches. These methods yielded near to perfect scores for all the metrics analysed for Random Forest Classifier. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png" width="1000" height="600">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png" width="1000" height="500">
 
 ## Final Comparison of the Models
 
