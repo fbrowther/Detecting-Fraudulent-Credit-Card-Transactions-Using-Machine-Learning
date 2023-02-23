@@ -202,7 +202,7 @@ The four possible outcomes of the Neural Network models are -
        FP: These are the instances of class 0 (genuine transactions), that the ANN incorrectly predicts as fraudulent.
        FN: These are the instances of class 1 (fraudulent transactions), that the ANN incorrectly predicts as genuine.
       
-Based on the best scores for FN and FP the highlighted models with binary accuracy of 0.6 was chosen as the best model for deployment. 
+Based on the best scores for FN and FP, the highlighted models with binary accuracy of 0.6 was chosen as the best model for deployment. 
 In the current use case of detecting fradulent transactions, FN values plays a crucial role.
 
 ## Balanced Dataset and Random Forest Classifier Model
