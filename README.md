@@ -55,6 +55,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
             (C) Random over & under-sampling (SMOTETomek)
 
 (4) Building ML models in balanced dataset
+            (1) Random Forest Classifier
 
 (5) Making recommendations to end-users (credit card companies) for deployement 
              
@@ -85,7 +86,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
        (9) TensorFlow - Neural Network
        (10) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
    
-       
+##        
       
 
 
