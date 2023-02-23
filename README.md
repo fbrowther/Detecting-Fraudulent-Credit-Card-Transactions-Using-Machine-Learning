@@ -203,6 +203,13 @@ The four possible outcomes of the Neural Network models are -
 Based on the best scores for FN and FP the highlighted models with binary accuracy of 0.6 was chosen as the best model for deployment. 
 In the current use case of detecting fradulent transactions, FN values plays a crucial role.
 
+## Balanced Dataset and Random Forest Classifier Model
+
+
+
+
+## Final Comparison of the Models
+
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Final%20Table.png)
  
 
