@@ -62,19 +62,20 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
             (b) model_selection - train_test_split, SelectFromModel
             (c) Decomposition - PCA  
             (d) Manifold - TSNE
-            (e) Cluster - KMean
+            (e) Cluster - KMean, AgglomerativeClustering
             (f) Linear_model - LogisticRegression
             (g) Neighbors - KNeighborsClassifier
             (h) SVM - SVC
             (i) Metrics - Classification_report, roc_curve, auc
             (j) Ensemble - RandomForestClassifier
-            (k) 
-  
-      (2) TensorFlow - Neural Network
-      
-      (3) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
-      
-      (4)        
+            (k)     
+       (2) Pandas
+       (3) Matplotlib
+       (4) Numpy
+       (5) Seaborn
+       (6) TensorFlow - Neural Network
+       (7) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
+       (8)        
       
 
 
