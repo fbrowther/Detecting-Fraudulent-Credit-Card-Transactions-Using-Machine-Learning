@@ -132,13 +132,13 @@ For this dataset, we got precision and recall values of 0.78 and 0.70 for fraudu
 ### (7) SelectFromModel and Feature_Importance
 Feature Selection is the method of reducing the input variable to the model by using only relevant data and getting rid of noise in data. It is the process of automatically choosing relevant features for your machine learning model based on the type of problem one is trying to solve.
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/FeatureSelection.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/FeatureSelection.png" width="350" height="250">
 
 We employed SelectFromModel to train the dataset; however, this model was developed using only the selected features as obtained from above. 
 
 This gave us precision and recall values 0.90 and 0.74 for fraudulent transactions.
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png" width="350" height="150">
 
 ### Summary
 Out of all the supervised machine learning algorithms we employed, Random Forest Classifier was the best model so far to compare to.
