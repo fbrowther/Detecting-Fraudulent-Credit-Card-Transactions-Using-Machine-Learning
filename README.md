@@ -189,7 +189,7 @@ Since the dataset we are dealing with is severely imbalanced, it is very importa
 
 Therefore, these metrics were fed into the network for computing at every epoch during the training process. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="500" height="272">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="400" height="210">
 
 ## Performance of Artificial neural networks (ANN)
 
@@ -209,7 +209,7 @@ Based on the best scores for FN and FP, the highlighted models with binary accur
 
 Balancing of the current dataset was attempted employing RandomOverSampler, RandomUnderSampler, and SMOTETomek approaches. These methods yielded near to perfect scores for all the metrics analysed for Random Forest Classifier. 
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png" width="1000" height="700">
 
 ## Final Comparison of the Models
 
