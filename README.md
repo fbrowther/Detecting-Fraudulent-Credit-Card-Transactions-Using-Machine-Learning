@@ -166,25 +166,18 @@ The elbow curve represents the number for k and the number of clusters as it is 
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Elbow%20Curve.png)
 
-Employing elbow curve we determined the number of cluster that is recognizable in this dataset to be 4. However, on retraining the dataset for Kmeans clustering using K=4, we obtained the inertia value of 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis as expected.
+Employing elbow curve we determined the number of cluster that is recognizable in this dataset to be 4. However, on retraining the dataset for Kmeans clustering using K=4, we obtained the inertia value of 11267 and as we read it off the y-axis it can be seen to have 2 clusters as expected. 
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Inertia.jpg)
 
+### Summary
+Unsupervised ML models were unable to identify two distinct clusters of fradulent and non-fradulent transactions within our dataset.
+
+## Deep Learning
 
 
 
 
-
-The elbow curve represents the number for k and the number of clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
-
-As we can see in the graph, the elbow curve has 2 bends and is therefore said to have 2 clusters. The inertia value is 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis.
-### 
-
-The elbow curve represents the number for k and the number of clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
-
-As we can see in the graph, the elbow curve has 2 bends and is therefore said to have 2 clusters. The inertia value is 11267 and as we read it off the y-axis it can be seen to have 2 clusters on the x-axis.
-
-We also tried to carry out hierarchy clustering and tried running the cluster, however due to the size of the data and the RAM available, we had difficulty obtaining results.
 
 
 
