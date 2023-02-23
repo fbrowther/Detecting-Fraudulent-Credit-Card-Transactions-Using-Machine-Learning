@@ -191,7 +191,7 @@ Therefore, these metrics were fed into the network for computing at every epoch 
 
 The testing scores for these metrics are presented as follows-
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="500" height="250">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="500" height="260">
 
 
 ## Performance of Artificial neural networks (ANN)
