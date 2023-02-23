@@ -118,7 +118,9 @@ ExtraTreesClassifier implements an estimator algorithm, that fits a number of ra
 
 This model gave us precision and recall values of 0.91 and 0.79 for fraudulent transactions.
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Extra%20Tree%20Classifier.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Extra%20Tree%20Classifier.png" width="400" height="250">
+
+
 
 ### (6) Adaboost Classifier
 An AdaBoost classifier is an estimator algorithm that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset but where the weights of incorrectly classified instances are adjusted such that subsequent classifiers focus more on difficult cases. This algorithm can be used to boost the performance of any machine learning algorithm. It is best used with weak learners. 
