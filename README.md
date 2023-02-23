@@ -188,7 +188,7 @@ Since the dataset we are dealing with is severely imbalanced, it is very importa
 
 Therefore, these metrics were fed into the network for computing at every epoch during the training process. The testing scores for these metrics are presented as follows-
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="600" height="300">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="400" height="200">
 
 
 ## Artificial neural networks (ANN) performance
