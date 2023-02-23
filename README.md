@@ -151,7 +151,7 @@ Since the incoming new transaction data represents data with no prior label, we 
 ### (1) PCA
 PCA is a statistical technique used to speed up machine learning algorithms and works by reducing the number of input features or dimensions. As you can see from the diagram the PCA reduced the number of features from 29 to 13. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/PCA.png" width="350" height="150">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/PCA.png" width="350" height="250">
 
 ### (2) TSNE
 The TSNE algorithm also known as Stochastic Neighbourhood Embedding is a clustering and visualization method. It is different from PCA and is able to account for non-linear relationships. This algorithm models the probability distribution of neighbours around each point. 
