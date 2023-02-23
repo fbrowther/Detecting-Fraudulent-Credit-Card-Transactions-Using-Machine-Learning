@@ -26,7 +26,7 @@ To build  Machine Learning models that can detect fraudulent transactions in the
             •	Intrusion Detection
             •	Conversion Prediction.
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Class%20Distribution%20in%20original%20Dataset.png" width="500" height="500">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Class%20Distribution%20in%20original%20Dataset.png" width="400" height="400">
 Class 0 are non-fradulent while Class 1 are fradulent transactions
 
 ## ML Steps executed -
