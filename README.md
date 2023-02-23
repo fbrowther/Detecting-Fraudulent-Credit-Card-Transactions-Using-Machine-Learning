@@ -140,7 +140,7 @@ This gave us precision and recall values 0.90 and 0.74 for fraudulent transactio
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png" width="350" height="150">
 
 ### Summary of Supervised ML models
-Out of all the supervised ML algorithms we employed, Random Forest Classifier was the best model so far.
+Out of all the supervised ML algorithms we employed, Random Forest Classifier was the best model thus far.
 
 
 # Unsupervised ML Models
