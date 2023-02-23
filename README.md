@@ -196,7 +196,7 @@ The testing scores for these metrics are presented as follows-
 
 ## Performance of Artificial neural networks (ANN)
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/ANN%20comparison.png" width="750" height="200">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/ANN%20comparison.png" width="725" height="200">
 
 
 
