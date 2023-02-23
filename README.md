@@ -48,12 +48,12 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
             (C) Artificial Neural Network - ANN
                 
 (3) Balancing the dataset -
+
             (A) Random over-sampling (RandomUnderSampler), 
             (B) Random under-sampling (RandomUnderSampler) &
             (C) Random over & under-sampling (SMOTETomek)
 
-(4) Building ML models in balanced dataset
-            (1) Random Forest Classifier
+(4) Building ML models in balanced dataset using Random Forest Classifier
 
 (5) Making recommendations to end-users (credit card companies) for deployement 
              
