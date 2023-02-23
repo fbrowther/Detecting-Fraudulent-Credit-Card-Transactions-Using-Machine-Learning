@@ -220,3 +220,12 @@ However, with the balanced dataset these models became perfect enough to predict
 
 
 ## Conclusions and recommendations
+            (1) Best_Models - Successful at developing modeling with ‘best possible’ Precision and Recall scores in both imbalanced and balanced dataset
+            (2) Imbalanced Dataset - Larger list of metrics had to be computed to assess the performance of the models
+            (3) Computationally demanding - Both large dataset and number of metric had to be calculated which made the modeling time quite long
+            (4) Cloud Technologies - Cloud Technologies (AWS, Azure, Snowflake etc.,)  to cope with the increased computational demands is recommended
+
+
+
+
+
