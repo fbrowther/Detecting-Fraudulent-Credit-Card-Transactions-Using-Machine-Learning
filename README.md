@@ -53,7 +53,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
             (B) Random under-sampling (RandomUnderSampler) &
             (C) Random over & under-sampling (SMOTETomek)
 
-(4) Building ML models in balanced dataset using Random Forest Classifier
+(4) Building ML models in the newly balanced dataset using Random Forest Classifier
 
 (5) Making recommendations to end-users (credit card companies) for deployement 
              
