@@ -7,11 +7,11 @@ Credit card fraud is becoming very common nowadays. It is a fraud committed usin
 Detecting these types of fraud is a challenging task as it requires detecting fraudulent transactions out of millions of daily transactions. Due to the enormous amount of data, it is nearly impossible for human specialists to identify meaningful patterns from transaction data. However, employing machine learning models these types of fraudulent transactions can be detected with some success. 
 
 ## Aims and Objective -
-To build  Machine Learning models that can detect fraudulent transactions in the real-world dataset, obtained from european credit card users.
+To build  Machine Learning models that can detect fraudulent transactions in the (anonymized) real-world dataset, obtained from european credit card users.
 
 ## Dataset - 
     (1) The dataset contains transactions made by credit cards in September 2013 by European cardholders. 
-    (2) The data available for this project was anonymized and collected over two days.
+    (2) The data available for this project was collected over two days.
     (3) Data contained 492 fraudulent transactions out of 284,807. 
     (4) The dataset is severly imbalanced posing additional challenges for the ML models. 
     (5) Necessary ML steps will be taken to improve the model performance in such an imbalanced dataset. 
@@ -132,15 +132,14 @@ Feature Selection is the method of reducing the input variable to your model by 
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/FeatureSelection.png)
 
+We employed SelectFromModel to train the dataset however this model was developed using only the selected features as obtained from above. 
 
-
-We have used the SelectFromModel. 
-
-This model gave us precision and recall values 0.90 and 0.74 for fraudulent transactions.
+This gave us precision and recall values 0.90 and 0.74 for fraudulent transactions.
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/SelectFromModel-FeatureSelection.png)
 
-
+### Summary -
+So far out of all the supervised machine learning algorithms we employed 
 
 
 ![LR]()
