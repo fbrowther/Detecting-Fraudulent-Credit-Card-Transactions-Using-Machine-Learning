@@ -169,7 +169,7 @@ The elbow curve represents the number for k / clusters as it is the inflection p
 
 Employing elbow curve we determined the number of cluster that is recognizable in the current dataset to be 4. However, on retraining the dataset for Kmeans clustering using K=4, we obtained the inertia value of 11267 and as we read it off the y-axis it can be seen to have 2 clusters as expected. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Inertia.jpg" width="150" height="70">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Inertia.jpg" width="150" height="68">
 
 ### Summary of Unsupervised ML models
 Unsupervised ML models were unable to identify two distinct clusters representing fradulent and non-fradulent transactions and therefore was not included for comparison with other models.
@@ -209,7 +209,7 @@ Based on the best scores for FN and FP, the highlighted models with binary accur
 
 Balancing of the current dataset was attempted employing RandomOverSampler, RandomUnderSampler, and SMOTETomek approaches. These methods yielded near to perfect scores for all the metrics analysed for Random Forest Classifier. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png" width="1000" height="700">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png" width="1000" height="600">
 
 ## Final Comparison of the Models
 
