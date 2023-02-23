@@ -94,39 +94,40 @@ Supervised ML Models rely on the data labels to train algorithms that will then 
 ### (1) Logistic Regression
 This model is usually employed in making categorical predictions, like yes/no, true/false or class-0/class-1. In current project, this algorithm was used to predict whether the transaction was fradulent or not. This model gave a precision of 82% and a recall score of 52%. 
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Log1.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Log1.png" width="450" height="500">
 
 ### (2) K Nearest Neighbors (KNN)
 KNN uses proximity to make classifications or predictions about a group of data points. We observed a slight improvement in precision (88%) and recall scores (74%) with this model. 
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/KNN.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/KNN.png" width="450" height="500">
 
 ### (3) SVM (with and without class weight assignment)
 Since the dataset is severly imbalanced, we used a prediction classifier that is commonly used in imbalanced datasets, Support Vector Machine (SVM). 
 We assigned either an equal or double the weight to class 1 in comparison to class 0 to model this algorithm. 
 
-
-
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="450" height="500">
 
-![LR]()
-
-
-
-
-![LR]()
-
-
-Because the dataset is imbalanced, we used a prediction classifier that is commonly used in imbalanced datasets, Support Vector Machine (SVM). We used both with and without classweight to measure as accurate as possible. Although the result difference was negligible, the model performed slightly better without class weight, with a precision of 81%, recall of 78% and f1-score of 80%.  
-
-
-### (2) K Nearest Neighbors -
-
-
 ### (4) Random Forest Classifier
+
+
 ### (5) Extra Tree Classifier
 ### (6) Adaboost Classifier
 ### (7) SelectFromModel and Feature_Importance
+
+![LR]()
+
+
+
+
+![LR]()
+ 
+
+
+
+
+
+
+
 
       
       
