@@ -118,7 +118,7 @@ ExtraTreesClassifier implements an estimator algorithm, that fits a number of ra
 
 This model gave us precision and recall values of 0.91 and 0.79 for fraudulent transactions.
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Extra%20Tree%20Classifier.png" width="400" height="150">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Extra%20Tree%20Classifier.png" width="350" height="150">
 
 
 
