@@ -175,10 +175,9 @@ Employing elbow curve we determined the number of cluster that is recognizable i
 Unsupervised ML models were unable to identify two distinct clusters representing fradulent and non-fradulent transactions and therefore was not included for comparison with other models.
 
 # Deep Learning
-
 Neural networks are a subset of machine learning algorithms which mimic the working of a human brain with regards to how the information is processed and understood.  
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/NN.png" width="800" height="275">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/NN.png" width="600" height="175">
 
 Neural networks rely on training data to learn and improve their accuracy. However, once these learning algorithms are fine-tuned for accuracy, 
 they are powerful tools in machine learning to classify and cluster data at a very high velocity. 
