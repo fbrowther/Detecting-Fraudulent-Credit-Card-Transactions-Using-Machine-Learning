@@ -173,11 +173,20 @@ Employing elbow curve we determined the number of cluster that is recognizable i
 ### Summary
 Unsupervised ML models were unable to identify two distinct clusters of fradulent and non-fradulent transactions within our dataset.
 
-## Deep Learning
+## Deep Learning (Artificial neural networks (ANN))
 
+Neural networksare a subset of machine learning algorithms which mimic the working of a human brain with regards how the information is processed and understood.  
 
+![LR]()
 
+Neural networks rely on training data to learn and improve their accuracy. However, once these learning algorithms are fine-tuned for accuracy, 
+they are powerful tools in machine learning to classify and cluster data at a very high velocity. In this case to determine whether a transaction was fraudulent or not.
 
+Since the dataset we are dealing with is severely imbalanced, it is very important to note that determining loss or accuracy alone will not give an indication of how well the neural networks are working in predicting the minority class.
+
+These metrics were fed into the network to be computed during the training process.
+
+![LR]()
 
 
 
