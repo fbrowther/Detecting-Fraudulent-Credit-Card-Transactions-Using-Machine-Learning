@@ -36,14 +36,20 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
 
 (2) Building ML models (in original dataset)
 
-            (A) Supervised ML Models -
-            (B) Unsupervised ML Models -
-                (1) Dimensionality Reduction using PCA and t-SNE,
-                (2) Cluster Analysis using KMeans Clustering,
-            (C) Artificial Neural Network -
+            (A) Supervised ML Models 
+                (1) Logistic Regression
+                (2) K Nearest Neighbors
+                (3) SVM (with and without class weight assignment)
+                (4) Random Forest Classifier
+                (5) Extra Tree Classifier
+                (6) Adaboost Classifier
+                (7) SelectFromModel and Feature_Importance
+            (B) Unsupervised ML Models
+                (1) Dimensionality Reduction using PCA and t-SNE
+                (2) Cluster Analysis using KMeans Clustering
+            (C) Artificial Neural Network - ANN
                 
 (3) Balancing the dataset -
-
             (A) Random over-sampling (RandomUnderSampler), 
             (B) Random under-sampling (RandomUnderSampler) &
             (C) Random over & under-sampling (SMOTETomek)
@@ -52,7 +58,6 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
 
 (5) Making recommendations to end-users (credit card companies) for deployement 
              
-
       
 ## Specific Libraries and modules employed -
       
