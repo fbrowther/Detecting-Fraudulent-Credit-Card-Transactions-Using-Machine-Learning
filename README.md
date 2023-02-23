@@ -178,7 +178,7 @@ Unsupervised ML models were unable to identify two distinct clusters representin
 
 Neural networks are a subset of machine learning algorithms which mimic the working of a human brain with regards to how the information is processed and understood.  
 
-![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/NN.png)
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/NN.png" width="800" height="400">
 
 Neural networks rely on training data to learn and improve their accuracy. However, once these learning algorithms are fine-tuned for accuracy, 
 they are powerful tools in machine learning to classify and cluster data at a very high velocity. 
@@ -191,17 +191,14 @@ Therefore, these metrics were fed into the network for computing at every epoch 
 
 The testing scores for these metrics are presented as follows-
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="500" height="270">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg" width="500" height="272">
 
 
 ## Performance of Artificial neural networks (ANN)
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/ANN%20comparison.png" width="725" height="200">
 
-
-
 The four possible outcomes of the Neural Network models are -
-
        TP: These are the instances of class 1 (fraudulent transactions), that the ANN correctly predicts as fraudulent.
        TN: These are the instances of class 0 (genuine transactions), that the ANN correctly predicts as genuine.
        FP: These are the instances of class 0 (genuine transactions), that the ANN incorrectly predicts as fraudulent.
