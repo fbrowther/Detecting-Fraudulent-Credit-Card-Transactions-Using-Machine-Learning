@@ -104,7 +104,7 @@ KNN uses proximity to make classifications or predictions about a group of data 
 ### (3) SVM (with and without class weight assignment)
 Support Vector Machine (SVM) is a prediction classifier that is commonly used in imbalanced datasets. We assigned either an equal or double the weight to class 1 (compared to class 0) before training the models. This model showed more balanced score for both precision and recall.
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="350" height="400">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="350" height="375">
 
 ### (4) Random Forest Classifier
 A random forest classifier is an estimator algorithm that fits a number of decision tree on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting. This then outputs the most optimal result. 
