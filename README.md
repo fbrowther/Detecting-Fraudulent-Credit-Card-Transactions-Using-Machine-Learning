@@ -62,6 +62,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
 ## Specific Libraries and modules employed -
       
       (1) Scikit-Learn ML and Library-
+      
             (a) Preprocessing - StandardScaler, Normalize, OneHotEncoder
             (b) model_selection - train_test_split, SelectFromModel
             (c) Decomposition - PCA  
@@ -73,9 +74,11 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
             (i) Metrics - Classification_report, roc_curve, auc
             (j) Ensemble - RandomForestClassifier  
        (2) Imblearn -  
+       
             (a) over_sampling - RandomOverSampler
             (b) under_sampling - RandomUnderSampler
             (c) combine - SMOTETomek
+            
        (3) TensorFlow - Neural Network
        (4) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
        (5) Pandas
