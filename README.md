@@ -198,10 +198,11 @@ The testing scores for these metrics are presented as follows-
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/ANN%20comparison.png" width="725" height="200">
 
 The four possible outcomes of the Neural Network models are -
-       TP: These are the instances of class 1 (fraudulent transactions), that the ANN correctly predicts as fraudulent.
-       TN: These are the instances of class 0 (genuine transactions), that the ANN correctly predicts as genuine.
-       FP: These are the instances of class 0 (genuine transactions), that the ANN incorrectly predicts as fraudulent.
-       FN: These are the instances of class 1 (fraudulent transactions), that the ANN incorrectly predicts as genuine.
+
+        TP: These are the instances of class 1 (fraudulent transactions), that the ANN correctly predicts as fraudulent.
+        TN: These are the instances of class 0 (genuine transactions), that the ANN correctly predicts as genuine.
+        FP: These are the instances of class 0 (genuine transactions), that the ANN incorrectly predicts as fraudulent.
+        FN: These are the instances of class 1 (fraudulent transactions), that the ANN incorrectly predicts as genuine.
       
 Based on the best scores for FN and FP, the highlighted models with binary accuracy of 0.6 was chosen for deployment. In the current use case for detecting fradulent transactions, FN values plays a crucial role.
 
