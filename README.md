@@ -108,7 +108,7 @@ We assigned either an equal or double the weight to class 1 in comparison to cla
 
 Although the difference in scores were negligible, this model did perform slightly better without class weight assignment, with a precision of 81% and recall of 78%. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="100" height="100">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="250" height="250">
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png)
 
