@@ -158,14 +158,14 @@ The TSNE algorithm also known as Stochastic Neighbourhood Embedding is a cluster
 
 In the transaction dataset, TSNE algorithm was unable to distinguish the classes.
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/TSNE.png" width="350" height="250">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/TSNE.png" width="300" height="200">
 
 ### (3) K-means Clustering (in conjunction with Elbow Curve)
 The K-means algorithm groups the data into clusters where each piece of data is assigned to a cluster based on similiarity or the distance measured to a centroid. A centroid represents a data point that is the arithmetic mean position of all the points in a cluster. This process is repeated until the data is separated into distinct groups.
 
 The elbow curve represents the number for k / clusters as it is the inflection point where the slope takes a sharp turn and flattens out. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Elbow%20Curve.png" width="350" height="250">
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Elbow%20Curve.png" width="300" height="200">
 
 Employing elbow curve we determined the number of cluster that is recognizable in the current dataset to be 4. However, on retraining the dataset for Kmeans clustering using K=4, we obtained the inertia value of 11267 and as we read it off the y-axis it can be seen to have 2 clusters as expected. 
 
