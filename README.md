@@ -213,9 +213,10 @@ Balancing of the current dataset was attempted employing RandomOverSampler, Rand
 
 ## Final Comparison of the Models
 
-When all the relevant models are compared we obtained two best models in the original imbalanced dataset to proceed for deployment (highlighted in yellow)
+When all the relevant models are compared we obtained two best models in the original imbalanced dataset to proceed for deployment (highlighted in yellow).
+However, with the balanced dataset these models became perfect enough to predict the classes (fraudulent or not) with 100% accuracy (highlighed in red)
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Final%20Table.png)
 
-However, with the balanced dataset these models were became perfect enough to predict the classes (fraudulent or not) with 100% accuracy.
-      
+
+## Conclusions and recommendations
