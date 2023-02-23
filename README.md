@@ -173,11 +173,11 @@ Employing elbow curve we determined the number of cluster that is recognizable i
 ### Summary
 Unsupervised ML models were unable to identify two distinct clusters of fradulent and non-fradulent transactions within our dataset.
 
-## Deep Learning (Artificial neural networks (ANN))
+## Deep Learning
 
-Neural networksare a subset of machine learning algorithms which mimic the working of a human brain with regards how the information is processed and understood.  
+Neural networks are a subset of machine learning algorithms which mimic the working of a human brain with regards how the information is processed and understood.  
 
-![LR]()
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/NN.png)
 
 Neural networks rely on training data to learn and improve their accuracy. However, once these learning algorithms are fine-tuned for accuracy, 
 they are powerful tools in machine learning to classify and cluster data at a very high velocity. In this case to determine whether a transaction was fraudulent or not.
@@ -186,18 +186,14 @@ Since the dataset we are dealing with is severely imbalanced, it is very importa
 
 These metrics were fed into the network to be computed during the training process.
 
-![LR]()
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.jpg)
+
+## Artificial neural networks (ANN) performance
+
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/NN.png)
 
 
-
-
-![LR]()
-
-
-
-
-
-![LR]()
+![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Final%20Table.png)
  
 
 
