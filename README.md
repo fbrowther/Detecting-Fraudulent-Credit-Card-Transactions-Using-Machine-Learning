@@ -105,9 +105,9 @@ KNN uses proximity to make classifications or predictions about a group of data 
 Since the dataset is severly imbalanced, we used a prediction classifier that is commonly used in imbalanced datasets, Support Vector Machine (SVM). 
 We assigned either an equal or double the weight to class 1 in comparison to class 0 to model this algorithm. 
 
-Although the difference in scores were negligible, this model did perform slightly better without class weight assignment, with a precision of 81% and recall of 78%. 
 
-<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="500" height="500">
+
+<img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/SVM.png" width="450" height="500">
 
 ![LR]()
 
