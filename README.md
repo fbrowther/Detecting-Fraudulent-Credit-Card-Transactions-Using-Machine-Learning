@@ -86,10 +86,25 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
        (9) TensorFlow - Neural Network
        (10) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
    
-## Model Performance -       
+## Model Performance -    
+
+## Supervised ML Models -
       
+### (1) Logistic Regression
 
 
+### (2) K Nearest Neighbors
+### (3) SVM (with and without class weight assignment)
+### (4) Random Forest Classifier
+### (5) Extra Tree Classifier
+### (6) Adaboost Classifier
+### (7) SelectFromModel and Feature_Importance
+
+      
+      
+      
+      
+      
       
 The four possible outcomes are
 
