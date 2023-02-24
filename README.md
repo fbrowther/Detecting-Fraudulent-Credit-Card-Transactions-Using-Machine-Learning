@@ -14,7 +14,7 @@ To build machine learning models that can detect fraudulent transactions in the 
     (4) The dataset is severly imbalanced posing additional challenges for the ML models. 
     (5) Necessary steps will be taken to improve the model performance. 
     (6) Imbalanced dataset in real life scenarios are very common.
-        These scenarios include (but not limited to) -
+        These include (but not limited to) -
             •	Claim Prediction
             •	Default Prediction.
             •	Churn Prediction.
