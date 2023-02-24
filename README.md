@@ -205,13 +205,13 @@ The four possible outcomes of the Neural Network models are -
       
 Based on the best scores for FN and FP, the highlighted models with binary accuracy of 0.6 can be chosen for deployment. In the current use case for detecting fradulent transactions, FN values plays a crucial role.
 
-## Balanced Dataset & RFC Model
+# Balanced Dataset & RFC Model
 
 Balancing of the current dataset was attempted employing RandomOverSampler, RandomUnderSampler, and SMOTETomek approaches. These methods yielded near to perfect scores for all the metrics analysed for Random Forest Classifier. 
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Balanced%20Dataset.png" width="625" height="500">
 
-## Final Comparison of the Models
+# Final Comparison of the Models
 
 When all the relevant models were compared we obtained two best models in the original imbalanced dataset to proceed for deployment (highlighted in yellow).
 
@@ -219,7 +219,7 @@ However, if the dataset were to be balanced (as shown above), these models becam
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Final%20Table.png" width="700" height="400">
 
-## Conclusion and Limitations -
+# Conclusion and Limitations -
          (1) Best_Models - 
              ML models with ‘best possible’ Precision and Recall scores in both imbalanced and balanced dataset were developed
          (2) Imbalanced Dataset - 
