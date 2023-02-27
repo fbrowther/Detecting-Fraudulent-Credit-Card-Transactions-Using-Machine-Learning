@@ -2,7 +2,7 @@
 
 ![LR](https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Credit-Card-Fraud-Detection.jpg)
 ## Brief Introduction -
-Credit card fraud is becoming very common nowadays. Detecting these types of fraud is a challenging task as it requires detecting fraudulent transactions out of millions of daily transactions. Due to the enormous amount of data, it is nearly impossible for human specialists to identify meaningful patterns from transaction data. However, employing machine learning models these types of fraud can be detected. 
+Credit card fraud is becoming very common now-a-days. Detecting these types of fraud is a challenging task as it requires detecting fraudulent transactions out of millions of daily transactions. Due to the enormous amount of data, it is nearly impossible for human specialists to identify meaningful patterns from transaction data. However, employing machine learning models these types of fraud can be detected. 
 
 ## Aims -
 To build machine learning models that can detect fraudulent transactions in the real-world dataset (anonymized dataset obtained from european credit card users)
