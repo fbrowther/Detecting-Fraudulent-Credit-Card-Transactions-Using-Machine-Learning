@@ -92,7 +92,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
 Supervised ML Models rely on the data labels to train algorithms that will then classify data or predict the outcome accurately. 
 
 ### (1) Logistic Regression
-This model is (usually) employed in making categorical predictions, like yes/no, true/false or class-0/class-1. In this current project, this algorithm was used to predict whether the transaction was fradulent or not. This model gave a precision of 82% and a recall score of 52%. 
+This model is (usually) employed in making categorical predictions, like yes/no, true/false or class-0/class-1. In the current project, this algorithm was used to predict whether the transaction was fradulent or not. This model gave a precision of 82% and a recall score of 52%. 
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Images%20for%20Readme/Log1.png" width="725" height="250">
 
