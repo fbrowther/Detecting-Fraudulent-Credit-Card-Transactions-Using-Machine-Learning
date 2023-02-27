@@ -189,7 +189,7 @@ Therefore, these metrics were fed into the network for computing at every epoch 
 
 <img src="https://github.com/fbrowther/Anomaly-Detection-to-identify-Fraudulent-Credit-Card-Transactions/blob/main/Images/Metrics-NN.png" width="500" height="225">
 
-## Performance of Artificial neural networks (ANN)
+## Performance of Artificial Neural Networks (ANN)
 
 The testing scores for these metrics are presented as follows-
 
