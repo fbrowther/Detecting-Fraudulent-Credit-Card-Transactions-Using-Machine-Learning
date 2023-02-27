@@ -205,7 +205,7 @@ The four possible outcomes of the Neural Network models are -
       
 Based on the best scores for FN and FP, the highlighted models with binary accuracy of 0.6 can be chosen for deployment. 
 
-In the current use case for detecting fradulent transactions, FN values plays a crucial role.
+In the current use case for detecting fradulent transactions, FN values play a crucial role.
 
 # Balanced Dataset & RFC Model
 
