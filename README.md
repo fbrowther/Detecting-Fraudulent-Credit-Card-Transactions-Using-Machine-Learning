@@ -74,8 +74,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
        (2) Imblearn -  
             (a) over_sampling - RandomOverSampler
             (b) under_sampling - RandomUnderSampler
-            (c) combine - SMOTETomek
-            
+            (c) combine - SMOTETomek     
        (3) TensorFlow - Neural Network
        (4) Keras-tuner - To automate the Neural Network to choose the best model and the best hyperparameters
        (5) Pandas
