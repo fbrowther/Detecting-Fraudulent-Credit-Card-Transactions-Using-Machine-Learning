@@ -55,7 +55,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
 
 (4) Building ML models in the newly balanced dataset using Random Forest Classifier
 
-(5) Making recommendations to end-users (credit card companies) for deployement 
+(5) Making recommendations to end-users (credit card companies) for deployment 
              
       
 ## Specific Libraries and modules employed -
