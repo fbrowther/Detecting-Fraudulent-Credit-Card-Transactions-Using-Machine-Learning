@@ -49,7 +49,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
                 
 (3) Balancing the dataset -
 
-            (A) Random over-sampling (RandomUnderSampler), 
+            (A) Random over-sampling (RandomOverSampler), 
             (B) Random under-sampling (RandomUnderSampler) &
             (C) Combination of random over & under sampling (SMOTETomek)
 
