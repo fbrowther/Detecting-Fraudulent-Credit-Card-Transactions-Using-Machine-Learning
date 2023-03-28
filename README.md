@@ -60,7 +60,7 @@ Class 0 are non-fradulent while Class 1 are fradulent transactions
       
 ## Specific Libraries and modules employed -
       
-      (1) Scikit-Learn ML and Library-
+      (1) Scikit-Learn ML Library-
             (a) Preprocessing - StandardScaler, Normalize, OneHotEncoder
             (b) model_selection - train_test_split, SelectFromModel
             (c) Decomposition - PCA  
